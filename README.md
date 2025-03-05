@@ -3,6 +3,9 @@ NGS kapsanmayan gen listesini Excel dosyasından liste olarak rapor formatında 
 
 Bu araç, hedefli dizileme verilerindeki hedef bölgelerin kapsama alanını analiz etmek için tasarlanmıştır. Belirli bir eşik değerinin altında kapsama sahip genleri ve bölgeleri belirlemek için Excel tablolarını okur.
 
+Şu bilgileri daha rahat elde etmenizi sağlar:
+* okuma derinliğinin altındaki okumalar varyant olarak yansımamaktadır. * okuma derinliğinin altındaki bölgeler kapsamamaktadır. // * okuma derinliğinin altındaki varyantlar saptanmamaktadır.
+
 ## Özellikler
 
 *   `.xls` ve `.xlsx` formatındaki Excel dosyalarını okuyabilir.
@@ -30,7 +33,7 @@ Bu araç, hedefli dizileme verilerindeki hedef bölgelerin kapsama alanını ana
 
 ## Kullanım
 
-1.  Kodu bir Python dosyasına kaydedin (örneğin, `kapsama_analizi.py`).
+1.  Kodu bir Python dosyasına kaydedin (örneğin, `kapsam_disi_liste.py`).
 2.  Dosyayı çalıştırın:
 
     ```
