@@ -1,4 +1,4 @@
-# kapsanmayan-gen-liste-cikarici
+# Minimum Coverage altındaki genlerin Listesini çıkartır
 NGS kapsanmayan gen listesini Excel dosyasından liste olarak rapor formatında çıkartır.
 
 Bu araç, hedefli dizileme verilerindeki hedef bölgelerin kapsama alanını analiz etmek için tasarlanmıştır. Belirli bir eşik değerinin altında kapsama sahip genleri ve bölgeleri belirlemek için Excel tablolarını okur.
@@ -52,9 +52,9 @@ Aşağıdaki örnek, eşik değeri 100 olarak ayarlandığında elde edilen tipi
 
 ```
 - Aşağıdaki genlerin ilgili bölgeleri bu dizileme çalışmasında kapsanmamıştır (okuma derinliği <100):
-  - BRCA1: exon2, exon5
-  - EGFR: exon7
-  - TP53: intron4
+  - BRCA1: 17:43044295..43044450, 17:43047612..43047890
+  - EGFR: 7:55019017..55019230
+  - TP53: 17:7571720..7571900, 17:7573282..7573455, 17:7574003..7574188, 17:7577122..7577300
 ```
 
 Bu sonuç, BRCA1 geninin exon2 ve exon5 bölgelerinin, EGFR geninin exon7 bölgesinin ve TP53 geninin intron4 bölgesinin, belirtilen dizileme çalışmasında 100'ün altında okuma derinliğine sahip olduğunu gösterir.
